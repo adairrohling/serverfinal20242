@@ -1,8 +1,13 @@
+import { LoginForm } from "@/components/login-form";
+
+
 
 export default function Home() {
   return (
-    <div>
-      <h1>WEB UTFPR</h1>
+    <>
+      <div className="flex h-screen w-full items-center justify-center px-4">
+      <LoginForm />
     </div>
-  );
+    </>
+  )
 }
